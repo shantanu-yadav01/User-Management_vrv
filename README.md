@@ -39,8 +39,8 @@ git clone https://github.com/shantanu-yadav01/User-Management_vrv.git
 
 2. Install Dependencies
 Ensure you have Node.js and npm installed. Navigate to the project directory and run:
-
 npm install
+
 3. Start the Application
 Run the following command to launch the app locally:
 
