@@ -1,50 +1,69 @@
-User Management System with Role-Based Access Control (RBAC)
-This project is a straightforward User Management System built using React.js. It facilitates managing users and roles through a table interface, allowing functionality for adding, updating, and deleting user records. Each user record includes essential details such as name, email, role, and status (active/inactive). User data is stored locally using the browser's localStorage to ensure data persistence across page reloads.
+User Management System
+Role-Based Access Control (RBAC)
+A lightweight, React-based User Management System designed to manage users and roles efficiently. This application provides a clean interface for adding, editing, and deleting user records while ensuring data persistence using the browser's localStorage.
 
-Key Features
-User Management
-1.Add New Users: Use a user-friendly form to add users with attributes like name, email, and role. The email input is validated to ensure proper formatting.
-2.Edit User Details: Modify the existing user information, including their assigned role, by using the "Edit" option in the user list.
-3.Delete Users: Remove user records permanently by clicking the "Delete" button available in the table.
-Role Management
-Roles can be created and assigned to users during the add or edit process. This feature provides flexibility in controlling access and permissions.
-Data Persistence
-Utilizes the browser's localStorage to:
-Save user and role changes (e.g., additions, updates, and deletions).
-Ensure that the data remains intact even after refreshing the page, as it automatically loads from localStorage on initialization.
-Responsive Design
-Optimized for both desktop and mobile devices, ensuring the tables and forms are easily accessible and readable on any screen size.
-Technology Stack
-React.js: For building the interactive and dynamic user interface.
-Tailwind CSS: For styling the application and ensuring responsive design.
-localStorage: For data storage and persistence.
-Getting Started
-Clone the Repository
-git clone url
-Install Dependencies
-Make sure you have Node.js and npm installed. Navigate to the project directory and run:
+
+
+
+
+🌟 Features
+👤 User Management
+Add Users: Easily add new users by filling out a form with their name, email, and role. The email field is validated to ensure proper formatting.
+Edit Users: Modify user details such as name, email, and assigned role using the "Edit" option in the user table. The form pre-fills with the selected user’s details for convenience.
+Delete Users: Permanently remove users with the "Delete" button available in the table.
+🔒 Role Management
+Create roles and assign them to users during the add/edit process. Roles help define user permissions and access levels.
+💾 Persistent Data Storage
+Utilizes localStorage for:
+Saving user and role data (including additions, edits, and deletions).
+Retaining all data even after refreshing the page by reloading it from localStorage.
+📱 Responsive Design
+Built with Tailwind CSS to ensure a responsive and clean interface across desktop and mobile devices. Tables and forms dynamically adjust to various screen sizes.
+
+
+
+
+
+💻 Technology Stack
+React.js: For building a dynamic and interactive UI.
+Tailwind CSS: For modern, responsive styling.
+localStorage: For persisting user and role data.
+
+
+
+
+🚀 Getting Started
+Follow these steps to set up and run the project locally:
+1. Clone the Repository
+git clone https://github.com/shantanu-yadav01/User-Management_vrv.git
+
+2. Install Dependencies
+Ensure you have Node.js and npm installed. Navigate to the project directory and run:
 
 npm install
-Start the Application
-Run the following command to start the project locally:
+3. Start the Application
+Run the following command to launch the app locally:
 
 npm start
-How to Use
-Create Roles:
 
-Begin by defining roles that can be assigned to users later.
+
+
+🛠️ How to Use
+Initialize Roles:
+
+Create roles before assigning them to users.
 Add Users:
 
-Click on the "Add User" button and fill out the form with details like name, email, and the role to create a new user.
-Edit User Details:
+Click "Add User", fill out the form, and submit to add a new user.
+Edit User Information:
 
-Locate the "Edit" button in the user table, click it to pre-fill the form with existing details, and make necessary modifications.
+Use the "Edit" button to modify user details. Changes will be reflected immediately.
 Delete Users:
 
-Permanently remove a user by clicking the corresponding "Delete" button in the table.
+Permanently delete a user by clicking the "Delete" button.
 Role Assignment:
 
-When adding or editing a user, select the appropriate role to define their permissions and access levels.
+Assign a role to each user during the add or edit process to control their permissions.
 LocalStorage Integration:
 
-All data (users and roles) is saved to localStorage, ensuring persistence. Any modifications you make will reflect immediately and remain consistent across page refreshes.
+All data is automatically stored and retrieved from localStorage, ensuring that it persists even after the page is refreshed.
